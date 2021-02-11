@@ -1,11 +1,15 @@
-import React from "react";
-import "./style.css";
+import React from "react"
+import Header from "./Header"
+import MemeGenerator from "./MemeGenerator"
+import style from "./src/style.css"
 
-export default function App() {
-  return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
-  );
+function App() {
+    return (
+        <div>
+            <Header />
+            <MemeGenerator />
+        </div>
+    )
 }
+
+export default App
